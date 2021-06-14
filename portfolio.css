@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header start*/
+header {
+    padding: 20px 35px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+    text-shadow: black 2px 2px;
+    font-size: 35px;
+}
+
+header nav {
+    float: right;
+    margin: -30px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    margin: 0 50px; 
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  /*header end*/
+
+  /*hero start*/
+  .hero {
+      margin: 300px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .hero-form {
+      color: grey;
+      text-align: center;
+      text-shadow: black 2px 2px;
+      
+  }
+  
+
+  /*aboutme*/
+  .intro {
+      background-color: darkred;
+      padding: 50px;
+      height: 260px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+  }
+  
+  .section-title {
+    color: grey;
+    text-shadow: black 2px 2px;
+    font-size: 40px;
+    margin: 60px 0px;
+  }
+
+  section p {
+      color: grey;
+      text-shadow: black 1px 1px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin: -190px 300px ;
+      
+  }
+  /*end of about me*/
+
+  /*start of my work*/
+.experience {
+    background-color: darkred;
+    text-align: left;
+    padding: 50px;
+    height: 260px;
+    margin: 20px 0px;
+}
